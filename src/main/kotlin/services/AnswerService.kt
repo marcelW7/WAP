@@ -1,9 +1,9 @@
-package pl.allegro.product.index.Services
+package web.application.project.services
 
 import jakarta.transaction.Transactional
 import org.springframework.stereotype.Service
-import pl.allegro.product.index.Model.Answer
-import pl.allegro.product.index.Repositories.AnswerRepository
+import web.application.project.model.Answer
+import web.application.project.repositories.AnswerRepository
 
 @Service
 class AnswerService(

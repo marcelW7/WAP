@@ -1,9 +1,9 @@
-package pl.allegro.product.index.Controllers
+package web.application.project.controllers
 
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
-import pl.allegro.product.index.Model.Question
-import pl.allegro.product.index.Services.QuestionService
+import web.application.project.model.Question
+import web.application.project.services.QuestionService
 
 @RestController
 @RequestMapping("/api/questions")

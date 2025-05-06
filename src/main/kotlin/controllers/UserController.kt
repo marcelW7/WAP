@@ -1,9 +1,9 @@
-package pl.allegro.product.index.Controllers
+package web.application.project.controllers
 
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
-import pl.allegro.product.index.Model.User
-import pl.allegro.product.index.Services.UserService
+import web.application.project.model.User
+import web.application.project.services.UserService
 
 @RestController
 @RequestMapping("/api/users")

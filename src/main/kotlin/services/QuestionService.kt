@@ -1,11 +1,11 @@
-package pl.allegro.product.index.Services
+package web.application.project.services
 
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
-import pl.allegro.product.index.Model.Question
-import pl.allegro.product.index.Model.Tag
-import pl.allegro.product.index.Repositories.QuestionRepository
-import pl.allegro.product.index.Repositories.TagRepository
+import web.application.project.model.Question
+import web.application.project.model.Tag
+import web.application.project.repositories.QuestionRepository
+import web.application.project.repositories.TagRepository
 
 @Service
 class QuestionService(

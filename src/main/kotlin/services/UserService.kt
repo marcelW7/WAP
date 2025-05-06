@@ -1,9 +1,9 @@
-package pl.allegro.product.index.Services
+package web.application.project.services
 
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.stereotype.Service
-import pl.allegro.product.index.Model.User
-import pl.allegro.product.index.Repositories.UserRepository
+import web.application.project.model.User
+import web.application.project.repositories.UserRepository
 
 @Service
 class UserService(

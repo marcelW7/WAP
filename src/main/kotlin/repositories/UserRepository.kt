@@ -1,8 +1,8 @@
-package pl.allegro.product.index.Repositories
+package web.application.project.repositories
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
-import pl.allegro.product.index.Model.User
+import web.application.project.model.User
 
 @Repository
 interface UserRepository : JpaRepository<User, Long> {

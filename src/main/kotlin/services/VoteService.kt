@@ -1,10 +1,10 @@
-package pl.allegro.product.index.Services
+package web.application.project.services
 
 import jakarta.transaction.Transactional
 import org.springframework.stereotype.Service
-import pl.allegro.product.index.Model.Vote
-import pl.allegro.product.index.Model.VoteType
-import pl.allegro.product.index.Repositories.VoteRepository
+import web.application.project.model.Vote
+import web.application.project.model.VoteType
+import web.application.project.repositories.VoteRepository
 
 @Service
 class VoteService(

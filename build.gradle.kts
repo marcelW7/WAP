@@ -6,7 +6,7 @@ plugins {
     kotlin("plugin.jpa") version "2.1.20"
 }
 
-group = "pl.allegro.product.index"
+group = "web.application.project"
 version = "0.0.1-SNAPSHOT"
 
 java {
@@ -29,7 +29,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     // Baza danych
-    runtimeOnly("org.postgresql:postgresql")
+    implementation("mysql:mysql-connector-java:8.0.33")
 
     // JWT (jeśli planujesz używać tokenów JWT)
     implementation("io.jsonwebtoken:jjwt-api:0.12.5")

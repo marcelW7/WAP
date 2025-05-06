@@ -1,4 +1,4 @@
-package pl.allegro.product.index
+package web.application.project
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

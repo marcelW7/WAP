@@ -1,4 +1,4 @@
-package pl.allegro.product.index.Model
+package web.application.project.model
 
 import jakarta.persistence.CascadeType
 import jakarta.persistence.Column
